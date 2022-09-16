@@ -27,6 +27,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:paddingHorizontal="@dimen/base_margin"
             android:orientation="vertical">
 
             <TextView
@@ -65,7 +66,7 @@
                 android:id="@+id/llDecline"
                 android:layout_width="@dimen/base_margin_x4"
                 android:layout_height="@dimen/base_margin_x4"
-                android:background="@drawable/rounded_button_decline"
+                android:background="@drawable/rounded_button_decline_small"
                 android:clickable="true"
                 android:focusable="true"
                 android:gravity="center"
@@ -104,7 +105,7 @@
                 android:id="@+id/llAccept"
                 android:layout_width="@dimen/base_margin_x4"
                 android:layout_height="@dimen/base_margin_x4"
-                android:background="@drawable/rounded_button_accept"
+                android:background="@drawable/rounded_button_accept_small"
                 android:clickable="true"
                 android:focusable="true"
                 android:gravity="center"
